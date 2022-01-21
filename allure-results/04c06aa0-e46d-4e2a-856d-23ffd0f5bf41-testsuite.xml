@@ -1,9 +1,9 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1642778129606' stop='1642778147848'>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1642805917108' stop='1642805938551'>
     <name>IMDB.com Website - The Godfather: TC-001 Verify place and rating of the movie "The Godfather"</name>
     <title>IMDB.com Website - The Godfather: TC-001 Verify place and rating of the movie "The Godfather"</title>
     <test-cases>
-        <test-case start='1642778129606' status='passed' stop='1642778129607'>
+        <test-case start='1642805917108' status='passed' stop='1642805917109'>
             <name></name>
             <title></title>
             <labels>
@@ -12,12 +12,12 @@
                 <label name='thread' value='0-0'/>
             </labels>
             <parameters>
-                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.99'/>
             </parameters>
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1642778129607' status='passed' stop='1642778141414'>
+        <test-case start='1642805917109' status='passed' stop='1642805931441'>
             <name>Given I am on the home page</name>
             <title>Given I am on the home page</title>
             <labels>
@@ -26,12 +26,12 @@
                 <label name='thread' value='0-0'/>
             </labels>
             <parameters>
-                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.99'/>
             </parameters>
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1642778141415' status='passed' stop='1642778147807'>
+        <test-case start='1642805931441' status='passed' stop='1642805938508'>
             <name>When I navigate to the Top 250 Movies section</name>
             <title>When I navigate to the Top 250 Movies section</title>
             <labels>
@@ -40,12 +40,12 @@
                 <label name='thread' value='0-0'/>
             </labels>
             <parameters>
-                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.99'/>
             </parameters>
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1642778147808' status='passed' stop='1642778147848'>
+        <test-case start='1642805938508' status='passed' stop='1642805938550'>
             <name>Then I see the movie "The Godfather" in second place with a rating of "9.1"</name>
             <title>Then I see the movie "The Godfather" in second place with a rating of "9.1"</title>
             <labels>
@@ -54,12 +54,12 @@
                 <label name='thread' value='0-0'/>
             </labels>
             <parameters>
-                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.99'/>
             </parameters>
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1642778147848' status='passed' stop='1642778147848'>
+        <test-case start='1642805938550' status='passed' stop='1642805938550'>
             <name></name>
             <title></title>
             <labels>
@@ -68,7 +68,7 @@
                 <label name='thread' value='0-0'/>
             </labels>
             <parameters>
-                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.99'/>
             </parameters>
             <steps/>
             <attachments/>

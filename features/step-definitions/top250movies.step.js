@@ -1,4 +1,4 @@
-import { Given, When, Then } from "@wdio/cucumber-framework";
+import { When, Then } from "@wdio/cucumber-framework";
 import Menu from "../pageobjects/components/Menu";
 import Navbar from "../pageobjects/components/Navbar";
 import top250moviesPage from "../pageobjects/pages/top250movies-page";
@@ -16,3 +16,12 @@ Then(/^I see the movie "The Godfather" in second place with a rating of "9.1"$/,
     const secondPlaceMovieRating = await top250moviesPage.secondPlaceMovieRating
     await expect(secondPlaceMovieRating).toHaveText('9.1')
 })
+
+Then(/^I shall see "The Dark Knight" listed and be able to select it$/, async () => {
+    await top250moviesPage.clickOnTheDarkKnightLink()
+})
+
+
+
+
+

@@ -13,16 +13,9 @@ class TopMoviesPage extends Base {
     get theDarkKnightLink(){
         return $('=The Dark Knight')
     }
-    get theDarkKnightTrailerButton(){
-        return $('#iconContext-play-circle-outline-large-inline')
-    }
     async clickOnTheDarkKnightLink(){
         await this.theDarkKnightLink.waitForExist()
         await this.theDarkKnightLink.click()
-    }
-    async clickOnTheDarkKnightTrailerButton(){
-        await this.theDarkKnightTrailerButton.waitForExist()
-        await this.theDarkKnightTrailerButton.click()
     }
 }
 
